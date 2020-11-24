@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Random;
 import org.joda.time.DateTime;
@@ -45,9 +46,18 @@ public class Main {
             students.add(new Student(name, dob, id, course, modules, true));
         }
 
-        System.out.println(courses);
-        System.out.println(modules);
-        System.out.println(students);
+        System.out.println("\nCourses:\n");
+        for(Course c : courses) {
+            System.out.println(c + "\n");
+        }
+        System.out.println("Modules:\n");
+        for(Module m : modules) {
+            System.out.println(m + "\n");
+        }
+        System.out.println("Students:\n");
+        for(Student s : students) {
+            System.out.println(s + "\n");
+        }
 
     }
 
