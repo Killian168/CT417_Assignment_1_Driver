@@ -24,7 +24,7 @@
         <dependency>
             <groupId>com.github.Killian168</groupId>
             <artifactId>CT417_Assignment_1</artifactId>
-            <version>v0.3</version>
+            <version>v0.4</version>
         </dependency>
     </dependencies>
     
